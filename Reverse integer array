@@ -1,0 +1,14 @@
+package practice4; // this is my package ;
+
+public class ReverseArray // here class is created name is Reverse array ; 
+{
+    public static void main(String[] args) // create main method 
+    {
+        int[] arr = {1,2,3,4,5}; // intalize an array 
+        int l = arr.length; // find the length of array;
+        for(int i = l-1; i>=0;i--) // for loop
+        {
+            System.out.print(arr[i]+" "); // print all elementrs of array in reverse order;
+        }
+    }
+}
