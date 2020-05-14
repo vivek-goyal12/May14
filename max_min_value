@@ -1,0 +1,17 @@
+package practice4; // create a package 
+
+import java.util.Arrays;
+
+public class MaxMinElement                                                   // create class name is MaxMinElement
+{
+    public static void main(String[] args) // create main method 
+    {
+        int [] arr = {1,55,88,58,77,99}; // intalize an array;
+        Arrays.sort(arr); // use sort method to sort array
+        int l = arr.length; // find trhe length of array;
+        int min = arr[0]; // find the minimum value
+        int max = arr[l-1]; // find the maximum value
+        System.out.println( " minimum value : "+min); // print the minimum value;
+        System.out.println( " maximum value : "+ max); // print the maximum value;
+     }
+}
